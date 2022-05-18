@@ -5,7 +5,13 @@ import Product from "./components/Product";
 
 export default function Home() {
   return (
-    <Box w="100vw" h="100vh">
+    <Box
+      w="100vw"
+      h="100vh"
+      bgImage="/mountain.jpg"
+      bgPosition="center"
+      bgRepeat="no-repeat"
+    >
       <HStack>
         <Profile />
         <Teams />
